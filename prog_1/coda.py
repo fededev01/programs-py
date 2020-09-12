@@ -4,6 +4,7 @@ while True:
  print("Options:")
  print("Enter 'aggiungi' per aggiungere una persona alla coda")
  print("Enter 'ricambia' per aggiungere una persona alla coda e rimuovere la prima") 
+ print("Enter 'rimuovi' per rimuovere la prima persona della fila")
  print("Enter 'quit' to end the program")
  user_input = input(": ")
  
@@ -16,6 +17,8 @@ while True:
   z = (input("Enter a name: "))
   coda.append(z)
   print(coda)
+ elif user_input == "rimuovi" 
+   del coda[0]
  elif user_input =="quit":
   break
 else:
